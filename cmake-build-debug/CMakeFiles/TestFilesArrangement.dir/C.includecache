@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/Internship_ShanghaiElectric/TestFilesArrangement/TestFilesArrangement.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+sys/time.h
+-
+string.h
+-
+unistd.h
+-
+
